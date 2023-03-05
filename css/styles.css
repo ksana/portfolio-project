@@ -88,6 +88,8 @@ p {
 .btn-branding:hover {
   color: black;
   background: var(--third-color);
+  border-radius: 4px;
+  color: var(--branding-color);
 }
 
 .btn-branding-outline {
@@ -97,6 +99,12 @@ p {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.btn-branding-outline:hover {
+  border: 2px solid var(--outline-color);
+  border-radius: 4px;
+  color: var(--outline-color);
 }
 
 .project-desciption {
