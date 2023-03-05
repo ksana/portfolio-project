@@ -89,7 +89,8 @@ p {
   color: black;
   background: var(--third-color);
   border-radius: 4px;
-  color: var(--branding-color);
+  color: black;
+  border: 2px solid var(--outline-color);
 }
 
 .btn-branding-outline {
