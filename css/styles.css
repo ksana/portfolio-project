@@ -59,7 +59,7 @@ p {
 }
 
 .content-container {
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 
 .content h1 {
@@ -120,6 +120,10 @@ p {
 
 .project-desciption {
   padding: 120px 60px;
+}
+
+.active {
+  color: var(--branding-color) !important;
 }
 
 @media (max-width: 800px) {
