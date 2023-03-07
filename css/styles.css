@@ -126,6 +126,10 @@ p {
   color: var(--branding-color) !important;
 }
 
+.notactive {
+  color: var(--outline-color);
+}
+
 @media (max-width: 800px) {
   h1 {
     font-size: 44px;
