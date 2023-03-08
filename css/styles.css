@@ -2,7 +2,7 @@
   --branding-color: #433e49;
   --outline-color: #928590;
   --third-color: #dbc1ad;
-  --secondary-color: #f3e8eb;
+  --fourth-color: #f3e8eb;
   --heading-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
 }
@@ -43,7 +43,7 @@ p {
 }
 
 .intro {
-  background: var(--secondary-color);
+  background: var(--fourth-color);
   text-align: center;
   padding: 160px 20px;
 }
@@ -135,7 +135,7 @@ footer {
 }
 
 footer .contact-box {
-  background: var(--secondary-color);
+  background: var(--fourth-color);
   padding: 30px 120px;
   border-radius: 10px;
 }
@@ -157,7 +157,7 @@ footer .email-link:hover {
 footer .social-links a {
   margin: 0 20px;
   color: var(--branding-color);
-  background: var(--secondary-color);
+  background: var(--fourth-color);
   padding: 10px 14px;
   border-radius: 50%;
   font-size: 18px;
@@ -167,6 +167,11 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--branding-color);
+}
+
+.letsgetintouch {
+  background-color: var(--fourth-color);
+  padding: 30px 150px;
 }
 
 @media (max-width: 800px) {
